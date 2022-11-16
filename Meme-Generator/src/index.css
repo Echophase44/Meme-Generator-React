@@ -4,3 +4,47 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+:root{
+  font-size: 10px;
+}
+
+.navbar{
+  height: 100px;
+  background-image: linear-gradient(to right, #672280, #A626D3);
+  text-align: center;
+  
+}
+
+.nav--title{
+  font-size: 4rem;
+  padding-top: 25px;
+  color: white;
+}
+
+/* ########################### Meme Component ########################### */
+
+main {
+  padding: 35px;
+}
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(to right, #672280, #A626D3);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}

@@ -2,7 +2,9 @@ import React from 'react'
 
 function Navbar(){
   return (
-    <h1>Testing</h1>
+    <nav className='navbar'>
+      <h1 className='nav--title'>Meme Generator</h1>
+    </nav>
   )
 }
 
