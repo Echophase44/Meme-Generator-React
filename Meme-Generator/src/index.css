@@ -26,6 +26,7 @@
 main {
   padding: 35px;
 }
+
 .form {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
@@ -49,7 +50,43 @@ main {
   text-indent: 5px;
 }
 
+.meme {
+  position: relative;
+}
+
 .meme--image{
   padding-top: 20px;
-  max-width: 100%;
+  max-width: 70%;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  left: 23%;
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+  margin-top: 45px;
 }
